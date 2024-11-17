@@ -13,7 +13,6 @@ class Solution:
                     break
                 
             if len(unrepeatedString) > maxLen:
-                print(unrepeatedString)
                 maxLen = len(unrepeatedString)
         
         return maxLen
