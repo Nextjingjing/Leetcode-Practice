@@ -25,7 +25,7 @@ class Solution:
                     j += 1
 
         # Find median
-        if all_size % 2 == 0:  # Even size
+        if all_size % 2 == 0:  # even size
             return (temp[-2] + temp[-1]) / 2
-        else:  # Odd size
+        else:  # odd size
             return float(temp[-1])
